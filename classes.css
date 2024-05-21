@@ -1,0 +1,165 @@
+/*Devoloped by Mckenzie West.  Please do not use without permission.*/
+
+
+body {
+	background-image: url("./image_files/back.png");
+    background-color: RGB(245,245,255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: "TeX Gyre Adventor", Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+	min-width: 1000px;
+}
+
+h1{
+    /*border-left: 60px solid transparent;*/
+    position: relative;
+}
+
+/*h2, h3, h4{
+    border-left: 15px solid transparent;
+}*/
+
+h1, h2, h3, h4{
+	color: black;
+	/*border-bottom: 0px;
+	border-top: 0px;
+	padding-left: 5px;
+	border-image: url(image_files/green_sweater_border.png) 30 round;
+	-webkit-border-image: url(image_files/green_sweater_border.png) 30 round; /* Safari 3.1-5
+	-o-border-image: url(image_files/green_sweater_border.png) 30 round; /* Opera 11-12.1 */
+}
+
+.main li{
+    padding: 5px;
+}
+
+.main{
+	font-size: 18px;
+    width: 775px;
+	margin: 0 auto;
+    text-align: left;
+    padding: 50px;
+    padding-top: 30px;
+	position:relative;
+    line-height: 1.2;
+}
+
+.main a{
+    font-weight: bold;
+    color: rgb(10,50,70);
+}
+
+.main a:hover{
+    text-decoration: none;
+}
+
+.foot {
+    font-size: 12px;
+    padding-top: 2px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner{
+    width: 800px;
+    margin-bottom: 0px;
+}
+
+
+nav{
+    font-size: 18px;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+
+nav ul {
+	width: 762px;
+	margin: -15px auto 0px auto;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	padding: 0 19;
+
+	 background: -webkit-linear-gradient(rgba(10,50,70,.1) 10%,rgba(10,50,70,1)30%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(10,50,70,.1) 10%,rgba(10,50,70,1) 30%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(10,50,70,.1) 10%,rgba(10,50,70,1) 30%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(10,50,70,.1) 10%,rgba(10,50,70,1) 30%); /* Standard syntax */
+}
+
+
+
+nav ul li {
+	margin: auto -1px;
+	padding: 0px;
+	float: left;
+	width: 150px;
+	border-left: 2px solid RGB(245,245,255);
+	border-right:2px solid RGB(245,245,255);
+}
+
+nav ul li:hover{
+	background-color:rgba(245,245,255,.2);
+}
+
+nav ul li a {
+    display: block; padding: 5px 10px;
+    color: RGB(245,235,220); text-decoration: none;
+	font-size:135%;
+	font-variant: small-caps;
+}
+
+#olafPic{
+	float:right;
+	width: 200px;
+	margin: 0px 10px;
+	border-style: solid;
+    border-width: 5px;
+	border-color: black;
+	position:relative;
+	top: -30px;
+}
+
+.line{
+	display: block;
+	border-top:10px solid black ;
+	height:0px;
+	background-color:black;
+	color: black;
+	width: 800px;
+	margin-left: -12px;
+}
+
+.photoFrame{
+	width:100%;
+	height:500px;
+	border: none;
+	padding-top:20px;
+	margin-left:10px;
+	border-color:1A444D;
+}
+
+.ravelry{
+  background: #F4F3F0; 
+    width: 100px;
+    padding: 9px;
+    border: solid 10px;
+  border-radius: 25px;
+    border-color: #EE6E62;
+}
+
+.ravelry:hover{
+    border-color: #1A444D;
+    background:#d1cfc9;
+    padding: 9px;
+}
+
+
+.littlePic:hover{
+	border-color:transparent;
+}
